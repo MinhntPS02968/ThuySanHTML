@@ -278,5 +278,39 @@
   .dg-wrapper a.dg-center div{
     display: block;
   }
-
   /*Gallety code End*/
+/*Contact code*/
+.contact{
+  position: relative;
+  background-color: #01364d;
+  color: #FFF;
+}
+.contact iframe{
+  z-index: 0;
+}
+.contact .contact-map{
+  opacity: 0.3;
+}
+.contact .contact-frm{
+  position: absolute;
+  top: 90px;
+  height: 500px;
+  z-index: 1;
+}
+.contact .contact-frm .contact-tittle{
+  font-size: 30px;
+  margin-top: 90px;
+  margin-bottom: 25px; 
+  z-index: 5;
+}
+.contact .contact-frm .contact-text{
+  font-size: 16px;
+  margin-bottom: 35px;
+}
+.contact .contact-frm form input{
+  margin-bottom: 15px;
+}
+.contact .contact-frm form textarea{
+  height: 155px;
+}
+/*Contact code End*/
